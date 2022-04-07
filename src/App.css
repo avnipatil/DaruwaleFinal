@@ -1,0 +1,249 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 0.7px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #744b87;
+  font-family: cursive;
+  font-weight: 900;
+}
+
+#main {
+  margin-top: 114px;
+}
+
+@media(max-width:980px) {
+  #main {
+    margin-top: 190px;
+  }
+}
+
+#loader {
+  overflow-y: hidden;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background: url('./assets/images/loader.gif') 50% 50% no-repeat rgb(255, 255, 255);
+  /* opacity: .9; */
+}
+
+.bg-indigo {
+  background-color: indigo;
+}
+
+.bg-faded-orange {
+  background-color: #fe696a3b !important;
+}
+
+.bg-faded-indigo {
+  background-color: #4e54c817 !important;
+}
+
+.bg-faded-green {
+  background-color: #42d69726 !important;
+}
+
+.bg-faded-yellow {
+  background-color: #ebea2317 !important;
+
+}
+
+.text-orange {
+  color: #ff5722;
+}
+
+.text-indigo {
+  color: #4e54c8 !important;
+}
+
+.text-green {
+  color: #42d697;
+}
+
+.text-yellow {
+  color: #c6c84e !important;
+
+}
+
+hr {
+  background-color: grey !important;
+  height: 0.1px !important;
+}
+
+/* Button1 */
+.btn-check:focus+.btn, .btn:focus {
+  box-shadow: none !important;
+}
+
+.Button-Red-Border {
+  white-space: nowrap;
+  color: #fe696a !important;
+  border-color: #fe696a !important;
+  font-weight: 400;
+}
+
+.Button-Red-Border:hover {
+  color: white !important;
+  border-color: #fe696a !important;
+  background-color: #fe696a !important;
+}
+
+/* Button2 */
+.Button-Full-Red {
+  white-space: nowrap;
+  border: none;
+  opacity: 0.9;
+  background-color: #fe3638;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 7px;
+  box-shadow: 0 0.5rem 1.125rem -0.5rem rgb(254 105 106 / 90%);
+  text-align: center;
+}
+
+.Button-Full-Red:hover {
+  color: white !important;
+  opacity: 1;
+  box-shadow: none;
+}
+
+/* Button3 */
+.Button-Blue-Border {
+  color: #4e54c8 !important;
+  border-color: #4e54c8 !important;
+  font-weight: 400;
+}
+
+.Button-Blue-Border:hover {
+  color: #fff !important;
+  background-color: #4e54c8;
+  border-color: #4e54c8;
+}
+
+/* Button gray */
+.btn-Gray {
+  text-align: center;
+  color: #000;
+  padding: 10px 25px;
+  background-color: #f3f5f9;
+  box-shadow: unset;
+  border-color: #e3e9ef !important;
+  border-radius: 5px;
+  border: 1px;
+}
+
+.btn-Gray:hover {
+  color: #000 !important;
+}
+
+.text-red {
+  color: #fe696a !important;
+}
+
+.form-select:focus, .form-check-input:focus, .form-control:focus {
+  outline: 0;
+  border-color: #fe3638 !important;
+  box-shadow: none !important;
+}
+
+/* Breadcrumb */
+.Heading-back-com {
+  --bs-bg-opacity: 1;
+  background-color: #0d324ddb;
+  /* padding: 1rem 0rem !important; */
+}
+
+.Heading-back-com2 {
+  background-color: #0d324ddb;
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+}
+
+.breadcrumb a {
+  text-decoration: none;
+}
+
+
+/* Alert */
+.swal-overlay--show-modal .swal-modal {
+  color: white;
+
+}
+
+.swal-modal {
+  color: white !important;
+  width: 315px;
+  height: 60px;
+  background-color: #fe4a4c !important;
+  /* position: static; */
+  margin: 20px auto 70px;
+  vertical-align: bottom;
+}
+
+.swal-title {
+  color: #fff;
+  font-weight: 600;
+  position: relative;
+  display: block;
+  padding: 0px 0px;
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+.swal-title:first-child {
+  margin-top: 14px;
+}
+
+.swal-title:not(:last-child) {
+  margin-bottom: 13px;
+}
+
+.swal-footer {
+  display: none;
+}
+
+.swal-overlay {
+  background-color: transparent;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block !important;
+  margin-top: 0 !important;
+}
+
+.table{
+  white-space: nowrap;
+}
+
+/* title */
+[data-title]:hover:after {
+  opacity: 1;
+  transition: all 0.1s ease 0.5s;
+  visibility: visible;
+}
+[data-title]:after {
+  background: black;
+    color: #ffff;
+    content: attr(data-title);
+    position: absolute;
+    bottom: -1.6em;
+    left: 100%;
+    padding: 4px 8px 4px 8px;
+    /* color: #222; */
+    white-space: nowrap;
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px #222;
+    background-image: -o-linear-gradient(top, #f8f8f8, #cccccc);
+    opacity: 0;
+    z-index: 99999;
+    visibility: hidden;
+}
+[data-title] {
+  position: relative;
+}

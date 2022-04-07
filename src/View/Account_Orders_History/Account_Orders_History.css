@@ -1,0 +1,224 @@
+.account{
+    cursor: pointer;
+}
+ a{
+    text-decoration: none;
+}
+.account .Heading-back-com2{
+    display: flex;
+    align-items: center;
+}
+/* .account dashbord*/
+.account .profile-orderhistory{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.account .profile-col-sidebar{
+    margin-top: -40px;
+}
+.account .sidebar-li{
+    list-style: none;
+    margin-left:-30px !important;
+}
+.ToolTip-img{
+        display: inline-block;
+        padding: 0.25em 0.625em;
+        font-size: 0.75em;
+        font-weight: normal;
+        line-height: 1;
+        color: #fff;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: baseline;
+        border-radius: 0.175rem;
+}
+.account .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color:#fe696a !important;
+    background-color: #fff !important;
+}
+/* badge */
+.account .bg-info{
+    background-color: #0dcaf0 !important;
+}
+.account .bg-danger{
+    background-color: #f34770 !important;
+}
+.account .bg-warning{
+    background-color:  #fea569 !important;
+}
+.account .bg-success{
+    background-color: #42d697 !important;
+}
+.account .bg-secondary{
+    background-color: #f3f5f9 !important;
+}
+/* paggination */
+.account .order-page.active .page-link {
+    background-color:#fe696a !important;
+    border-color: #fe696a !important;
+    border-radius: 8px;
+}
+.account .order-page:not(:first-child) .page-link {
+    margin-left: -1px;
+}
+.account .pagination .page-link {
+    border-radius: 0.3125rem;
+    font-size: .9375rem;
+    margin-left: 5px;
+}
+.account .page-link {
+    position: relative;
+    transition: color .25s ease-in-out,border-color .25s ease-in-out,background-color .25s ease-in-out;
+}
+.account .page-link {
+    padding: 0.3125rem 0.75rem;
+    border: none !important;
+    box-shadow: none !important;
+}
+.account .page-link:hover{
+    color:#fff;
+}
+/* wishlist */
+
+.account .product-order-wishlist h3{
+    font-size: 17px;
+}
+.account .product-order-wishlist span{
+    font-size: 14px;
+}
+.account .profiletab-img{
+    width:100px;
+    height:100px;
+}
+
+.card-img-pay{
+    width: 30px;
+    height: 20px;
+}
+.account .trash-wishlist{
+position: relative;
+top: 50%;
+-webkit-transform: translateY(-50%);
+-ms-transform: translateY(-50%);
+transform: translateY(-50%);
+}
+/* modal focus color /form focus */
+.closemodal{
+    float:right;
+}
+.closeModal_Submit{
+    margin-left: 20px;
+    padding: 10px 25px;
+    border-radius: 7px;
+}
+.account,.form-control:focus {
+    color: #4b566b !important;
+    background-color: #fff !important;
+    border-color: #ffb4b5 !important;
+    outline: 0 !important;
+    box-shadow: none !important;
+}
+.account, .form-label {
+    margin-bottom: 0.375rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #373f50;
+}
+@media only screen and (min-width:320px) and (max-width: 768px) {
+    .ListSort{
+       margin-bottom: 2.5rem !important;
+    }
+    .signoutbtn{
+        margin-bottom: 3.5rem !important;
+    }
+   
+}
+
+@media(max-width:998px){
+    .account .profile-col-sidebar{
+        margin-top: 0px;
+    }
+}
+.top{
+    background-color: #363e4e;
+}
+
+/* //Skeleton */
+.Skeleton-Cart {
+    padding-top: 1.5rem !important;
+    padding-bottom: 1.5rem !important;
+    height: 100%;
+    border: 0;
+    position: relative;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+}
+@keyframes shine {
+    to {
+        background-position: 100% 0;
+    }
+}
+.Skeleton-Cart .Cart-skeleton-img , .Skeleton-Cart h6 , .Skeleton-Cart span p
+,.Skeleton-Cart h4 ,.Skeleton-Cart .Delete-Cart-Item p , .Skeleton-Cart .Delete-Cart-Item h4{
+    max-width: 100%;
+    height: 100px;
+    background: linear-gradient(to right,
+            rgba(255, 255, 255, 0),
+            rgba(255, 255, 255, 0.5) 50%,
+            rgba(255, 255, 255, 0) 80%),
+        #efecec;
+    background-repeat: repeat-y;
+    background-size: 50px 500px;
+    background-position: 0 0;
+    animation: shine 1s infinite;
+}
+.Skeleton-Cart h6{
+    height: 20px;
+    width: 260px;
+    font-size: 0.8rem;
+    margin: 0px 0px 10px 0px;
+}
+.Skeleton-Cart span p{
+    height: 12px;
+    width: 100px;
+    font-size: 0.8rem;
+    margin: 0px 0px 10px 0px;
+}
+.Skeleton-Cart h4{
+    height: 18px;
+    width: 60px;
+    font-size: 0.8rem;
+    margin: 0px 0px 10px 0px;
+}
+.Skeleton-Cart .Delete-Cart-Item p{
+    height: 18px;
+    width: 80px;
+    font-size: 0.8rem;
+    margin: 0px 0px 10px 0px;
+}
+.Skeleton-Cart .Delete-Cart-Item h4{
+    height: 25px;
+    width: 100px;
+    font-size: 0.8rem;
+    margin: 0px 0px 10px 0px;
+}
+.text-errormsg{
+    color:#fe696a !important;
+    font-size: 12px;
+    text-transform: capitalize;
+}
+/* hide number field arrow */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}

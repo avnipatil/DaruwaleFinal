@@ -1,0 +1,255 @@
+
+.product-details .shoplistbox {
+  border-radius: 0.4375rem;
+  margin-top: -90px;
+  background-color: #fff;
+}
+
+.product-details .Heading-back-com3 {
+  background-color: #2f4f66;
+  margin-top: -2px;
+  padding-left: 3%;
+}
+
+.product-details .shoplist-box1 {
+  border-top-left-radius: 0.4375rem;
+  border-bottom-left-radius: 0.4375rem;
+  background-color: #7f5a83;
+  color: #ffff!important;
+  background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+}
+
+.product-details .shoplist-box1img {
+  border-top-right-radius: 0.4375rem;
+  border-bottom-right-radius: 0.4375rem;
+}
+
+.product-details .shoplist1-catetxt {
+  padding-left: 5%;
+  margin-bottom: 1.125rem;
+  font-size: 1.0625rem;
+  font-weight: 500;
+}
+
+.product-details .accordion-button {
+  color: #4b566b;
+  font-size: 0.900rem !important;
+  font-weight: normal !important;
+}
+
+.product-details .accordion-button:hover {
+  color: #fe3638;
+}
+
+.product-details .accordion-button:focus {
+  background-color: white;
+  border-color: #fe3638;
+  box-shadow: none;
+}
+
+.product-details .accordion-button::after {
+  background-image: none;
+  content: "\f078";
+  font-family: 'FontAwesome';
+  top: 0;
+  background-color: #f3f5f9;
+  border-radius: 50%;
+  padding: 3px;
+}
+
+.product-details .accordion-button:not(.collapsed)::after {
+  background-image: none;
+}
+
+.product-details .pro-5page {
+  margin-left: 33%;
+  margin-top: 2%;
+}
+
+/* ShopList Search button */
+.product-details .shoplistsearch-bar input[type=search] {
+  width: 100% !important;
+  padding-left: 10px;
+  color: transparent;
+  cursor: pointer;
+  background-color: #fff !important;
+}
+
+.product-details .shoplistsearch-bar input[type=search]:hover {
+  background-color: #fff;
+}
+
+.product-details .shoplistsearch-bar input[type=search]:focus {
+  color: #000;
+  background-color: #fff;
+  cursor: auto;
+  border: 1px solid #fe696a;
+}
+
+.product-details .shoplistsearch-bar input:-moz-placeholder {
+  color: transparent;
+}
+
+.product-details .shoplistsearch-bar input::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.product-details .shoplistsearch-bar input {
+  outline: none;
+}
+
+.product-details .shoplistsearch-bar input[type=search] {
+  -webkit-appearance: textfield;
+  font-family: inherit;
+  font-size: 100%;
+}
+
+.product-details .shoplistsearch-bar input::-webkit-search-decoration,
+.product-details .shoplistsearch-bar input::-webkit-search-cancel-button {
+  display: none;
+}
+
+.product-details .shoplistsearch-bar input[type=search] {
+  padding: 5px 10px 5px 32px;
+  width: 55px;
+  background: #ededed url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 9px center;
+  border: 1px solid #dae1e7;
+  border-radius: 5px;
+  transition: all .5s;
+}
+
+/* Sidebar Css */
+.product-details .shopsidebar-content {
+  position: relative;
+  overflow-y: auto;
+  scrollbar-width: thin;
+}
+
+.product-details .shopsidebar-content ul {
+  height: 150px;
+  overflow-y: auto;
+  margin: 0;
+}
+
+.product-details .shopsidebar-content ul li {
+  list-style: none;
+  margin-left: 0;
+  padding: 6px;
+}
+
+.product-details .shoplist-ul {
+  padding-left: 1rem;
+}
+
+.product-details .shoplist-ul li {
+  list-style: none;
+}
+
+.product-details .shoplistitems {
+  border: none;
+  background: none;
+  color: #4b566b;
+  font-weight: 400;
+  font-size: 15px;
+  text-decoration: none;
+
+}
+
+.product-details .shoplistitems:hover {
+  color: #fe3638;
+}
+
+.product-details .shopform-option-label {
+  position: relative;
+  min-width: 2rem;
+  height: 2rem;
+  margin-bottom: 0;
+  padding-top: 0.0625rem;
+  padding-right: 0.375rem;
+  padding-left: 0.375rem;
+  transition: color .2s ease-in-out, border-color .2s ease-in-out;
+  border: 1px solid #e3e9ef;
+  border-radius: 0.25rem;
+  color: #4b566b;
+  font-size: .75rem;
+  font-weight: normal;
+  text-align: center;
+  line-height: 1.75rem;
+  cursor: pointer;
+}
+
+.product-details .shopform-option-label:active {
+  border: 1px solid #fe3638;
+}
+
+.product-details .shopform-option-color {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-top: -0.75rem;
+  margin-left: -0.75rem;
+  background-position: top left;
+  background-size: 1.5rem 1.5rem;
+  background-repeat: no-repeat;
+}
+
+/* Shoplist Range slider */
+.product-details .shoplistrange-line {
+  height: 50px;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  color: #999;
+}
+
+.product-details .shoplistange-linediv2 {
+  height: 0.75rem;
+  display: flex;
+  width: 1px;
+  background-color: #d0dae4;
+  margin-left: -1px;
+  background: #AAA;
+}
+
+.product-details .shoplistange-value {
+  padding-top: 1.125rem;
+  color: #4b566b;
+  font-size: 15px;
+}
+
+/* Skleton css of product cards */
+.product-details .Skeleton-products  .skel1div ,.product-details .Skeleton-products h2,
+.product-details .Skeleton-products h3, .product-details .Skeleton-products h1{
+  background: linear-gradient(to right, #ffffff00, #ffffff80 50%, #ffffff00 80%), #efecec;
+  background-repeat: repeat-y;
+  background-size: 50px 500px;
+  background-position: 0 0;
+  animation: shine 1s infinite;
+}
+.product-details .Skeleton-products .skel1div {
+  height: 150px;
+  width: 100%;
+}
+.product-details .Skeleton-products h2 {
+  height: 15px;
+  width: 100px;
+}
+.product-details .Skeleton-products h3 {
+  height: 15px;
+  width: 140px;
+}
+.product-details .Skeleton-products h1 {
+  border-radius: 10px;
+  height: 40px;
+  width: 100%;
+}
+
+@keyframes shine {
+  to {
+      background-position: 100% 0;
+  }
+}
+

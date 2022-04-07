@@ -1,0 +1,60 @@
+.orderTrack .border-0 {
+    border: 0 !important;
+}
+.orderTrack .shadow-lg {
+    box-shadow: 0 0.3rem 1.525rem -0.375rem rgb(0 0 0 / 10%) !important;
+}
+.orderTrack .card-order{
+    border: none !important;
+    list-style: none !important;
+}
+.orderTrack .back-circle-order {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.orderTrack .back-circle-order i {
+    font-weight: 900;
+    font-size: 25px;
+}
+.orderTrack .text-order-active:active,.text-order-active:focus{
+    color: #fe696a;
+}
+.orderTrack, .active-card{
+    background-color: #fe696a;
+}
+.orderTrack, .product-img-ordertrack{
+    width: 151px;
+    height: 115px;
+}
+.orderTrack, .btn-view-order{
+    text-decoration: none;
+    width:auto;
+}
+.orderTrack, .ulrow{
+    box-shadow: 0 0.3rem 1.525rem -0.375rem rgb(0 0 0 / 10%) !important;
+    padding: 30px 20px 30px 20px;
+}
+.orderTrack, .order-details .modal-footer{
+    --bs-bg-opacity: 1 !important;
+    background-color: #f6f9fc !important;
+    display: contents !important;
+}
+.orderTrack, .order-details.modal-header{
+    --bs-bg-opacity: 1 !important;
+    background-color: #f6f9fc !important; 
+}
+.orderTrack, #example-modal-sizes-title-lg{
+    font-weight: 700;
+    font-size: 16px;
+}
+.orderTrack, .name-order{
+    font-size: 14px;
+    font-weight: normal;
+} 
+.orderTrack, .btn-close{
+    box-shadow: none !important;
+}
